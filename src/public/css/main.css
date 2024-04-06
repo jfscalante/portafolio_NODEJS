@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Escritorio*/
+@media (min-width: 992px) {
+    .texto {
+        margin-top: 72%;
+    }
+
+    .perfil {
+        width: 350px;
+        padding-top: 60%;
+    }
+
+    .aboutp {
+        width: 410px;
+        height: 420px;
+        border-radius: 1em;
+    }
+
+    .tarjetaexp {
+        justify-content: end;
+        align-items: end;
+
+    }
+
+    .tarjetas {
+        width: 20.7rem;
+        border-radius: 2em;
+        height: auto;
+    }
+
+    .titulo {
+        padding-top: 12%;
+    }
+
+    .titulo2 {
+        padding-top: 30%;
+    }
+
+    .titulo3 {
+        padding-top: 25%;
+    }
+
+    .tarjetapro {
+        width: 20rem;
+    }
+
+    .contactota {
+        width: 28rem;
+    }
+
+    .centradot {
+        display: flex;
+        justify-content: end;
+    }
+
+    .linquedin {
+        display: flex;
+        justify-content: end;
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: rgb(241, 243, 241);}
+    
+    .texto {
+        margin-top: 35%;
+    }
+
+    .bo2 {
+        margin-top: 10px;
+    }
+
+    .perfil {
+        width: 345px;
+        padding-top: 60%;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .aboutp {
+        border-radius: 1em;
+    }
+}
+
+/*Teléfonos orientación vertical*/
+@media (max-width: 575.98px) and (orientation:portrait) {
+
+    .perfil {
+        width: 345px;
+        padding-top: 60%;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactota {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texto {
+        margin-top: 18%;
+    }
+
+    .aboutp {
+        border-radius: 1em;
+        margin-bottom: 5%;
+    }
+
+    #tarjeticapro {
+        margin-bottom: 35px;
+    }
+
+    .tarjetas {
+        max-width: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2em;
+    }
+
+    .titulo {
+        padding-top: 30%;
+    }
+
+    .titulo2 {
+        padding-top: 40%;
+    } 
+
+    .titulo3 {
+        padding-top: 35%;
+    }
+    
+    .tarjetaexpe {
+        width: 10rem;
+    }
+
+    .textocarta {
+        text-align: center;
+    }
+}
+
+/*Teléfono orientación horizontal*/
+@media (max-width: 576px) and (orientation:landscape) {
+    body{background: black;}
+    
+}
+
+
+
+
+.flecha {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -20%);
+}
+
+.cntner {
+    padding-top: 8%;
+}
+
+.titulot {
+    padding-top: 15px;
+}
+
+.sobremi2 {
+    padding-left: 56px;
+    width: 595px;
+}
+
+
+
+
+
+.sobremi {
+    padding-top: 10%;
+}
+
+.conte button {
+    padding-top: 20px;
+    text-decoration: none;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bo1 {
+    border-color: black;
+    color: black;
+    border-radius: 3em;
+}
+
+.bo2 {
+    border-color: white;
+    color: white;
+    border-radius: 3em;
+}

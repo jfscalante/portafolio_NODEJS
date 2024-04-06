@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body>
+    <%- include('partials/navigation.ejs') %>
+    <div class="titulo2 mx-auto text-center">
+        <h6 id="projects">Explore My Recent</h6>
+        <h1 class="fw-bolder">Projects</h1>
+      </div>
+  
+      <div class="container mb-5 pt-4">
+        <div class="row row-cols-3">
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-end d-grid gap-2 col-4 mx-auto col-10" id="tarjeticapro">
+            <div class="tarjetapro card rounded-4">
+              <div class="ms-4 me-4 mt-3">
+                <img src="/images/project1 (1).png" class="card-img-top rounded-4" style="height: 180px;" alt="coming soon"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center pb-4">Web Portfolio</h5>
+                <div class="text-center">
+                  <a href="https://github.com/jfscalante/portafolio_FABIANSCALANTE" target="_blank" class="btn btn-light rounded-5 pb-1" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  <a href="https://jfscalante.github.io/portafolio_FABIANSCALANTE/" target="_blank" class="btn btn-light rounded-5" style="width: 120px; border-color: #a7a7a7;">Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-center d-grid gap-2 col-4 mx-auto col-10" id="tarjeticapro">
+            <div class="tarjetapro card rounded-4">
+              <div class="ms-4 me-4 mt-3">
+                <img src="/images/project2.png" class="card-img-top rounded-4 pb-1" style="height: 180px;" alt="coming soon"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center pb-4">Node JS portafolio</h5>
+                <div class="text-center">
+                  <a href="https://github.com/jfscalante/CURSO-Node.js.App" class="btn btn-light rounded-5" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  <a href="#" class="btn btn-light rounded-5" style="width: 120px; border-color: #a7a7a7;">Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-4 d-flex justify-content-start d-grid gap-2 col-4 mx-auto col-10" id="tarjeticapro">
+            <div class="tarjetapro card rounded-4">
+              <div class="ms-4 me-4 mt-3"><img src="/images/project3.png" class="card-img-top rounded-4" style="height: 180px;" alt="coming soon"></div>
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">LARAVEL administración</h5>
+                <div class="text-center">
+                  <a href="https://github.com/jfscalante/Laravel_admin_oacurso" class="btn btn-light rounded-5 pb-1" style="width: 120px; border-color: #a7a7a7;">GitHub</a>
+                  <a href="#" class="btn btn-light rounded-5" style="width: 120px; border-color: #a7a7a7;">Live Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      
+  
+      
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

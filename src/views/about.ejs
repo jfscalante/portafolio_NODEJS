@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body>
+    <%- include('partials/navigation.ejs') %>
+<!--Inicio about-->
+<div class="titulo mx-auto text-center">
+    <h6 id="about">Get To Know More</h6>
+    <h1 class="fw-bolder">About Me</h1>
+  </div>
+  
+  
+  <div class="cntner container text-center">
+    <div class="row">
+  
+      <div class="col-md-6 d-grid gap-2 col-6 mx-auto col-10 "><img src="/images/aboutme.jpg" class="img-fluid aboutp rounded-4" alt="..."></div>
+      <div class="pt-5"></div>
+     
+      <div class="col-md-6 d-grid gap-2 col-6 mx-auto col-10">
+        <div class="targets">
+          <div class="row">
+  
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="rounded-5 card border border-dark-subtle">
+                <div class="experience text-center card-body">
+                  <a href="#"><i class="fa-solid fa-award fa-2xl" style="color: #000000;"></i></i></a>
+                  <h4 class="titulot card-title fw-bold">Experiencie</h4>
+                  <p class="card-text">1 Years <br> Frontend <br> Development  <br> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="rounded-5 card border border-dark-subtle">
+                <div class="text-center card-body">
+                  <a href="#"><i class="fa-solid fa-user-graduate fa-2xl" style="color: #000000;"></i></a>
+                  <h4 class="titulot card-title fw-bold">Education</h4>
+                  <p class="card-text">I.E Maria Auxiliadora <br> Software Analyst and Developer <br> curso de ingles nivel 4 <br> curso ingles intermedio nivel 1 </p>
+                </div>
+              </div>
+            </div>
+            <p class="text-start pt-5">Hello, I am Fabian Scalante, an enthusiastic software developer with a passion for teamwork and a constant desire for professional growth. My career has been focused on effective collaboration, as a strongly believer that the exchange of ideas and the synergy of skills lead to exceptional results. I enjoy the challenge of tackling complex projects alongside dedicated colleagues, where the diversity of perspectives becomes our greatest asset. My continue growing in this field is reflected in my dedication to stay updated with the current technologies and development methodologies. I am interested about the opportunity to contribute to dynamic teams and further expand my skills in this field of software development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Fin sobre mí-->
+    
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
